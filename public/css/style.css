@@ -80,7 +80,7 @@ a.more {
   height: 30px;
   line-height: 30px;
   text-align: center;
-  color: #000;
+  color: #555; /* B: change shared button style */
   font-weight: bold;
   background: url("../images/tooplate_button.png");
 }
