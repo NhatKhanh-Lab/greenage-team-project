@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Age</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/nivo-slider.css">
+</head>
+<body class="homepage">
+  <div id="tooplate_wrapper">
+    <div id="tooplate_header">
+      <div id="site_title">
+        <h1><a href="/">Green Age</a></h1>
+      </div>
+      <div class="cleaner"></div>
+    </div>
+
+    <div id="tooplate_menu">
+      <ul>
+        <li><a href="/" class="current">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="last"><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div id="search_box">
+        <form action="#" method="get">
+          <input type="text" value="Search" name="q" size="10" id="searchfield" title="searchfield">
+          <input type="submit" name="Search" value="" id="searchbutton" title="Search">
+        </form>
+      </div>
+
+      <div class="cleaner"></div>
+    </div>
+
+    <div id="tooplate_middle">
+      <div id="slider">
+        <a href="#"><img src="/images/slideshow/01.jpg" alt="nature 1" title="Suspendisse quis velit ac nisl ultrices tristique a eu velit."></a>
+        <a href="#"><img src="/images/slideshow/02.jpg" alt="nature 2" title="Fusce eget tellus eget felis ultrices volutpat et vitae mauris."></a>
+        <a href="#"><img src="/images/slideshow/03.jpg" alt="nature 3" title="Duis non est nec dui tincidunt pulvinar lacinia vel quam."></a>
+        <a href="#"><img src="/images/slideshow/04.jpg" alt="nature 4" title="Phasellus in orci eget neque tristique semper ut ac lacus."></a>
+      </div>
+    </div>
+
+    <div id="tooplate_main">
+      <div class="col_w960" id="services">
+        <h2>Welcome to Green Age</h2>
+
+        <div class="col_w450 float_l">
+          <div class="wwd_box">
+            <img src="/images/icon1.png" alt="Work One">
+            <h3><a href="#">Download Free Templates</a></h3>
+            <p>Green Age is a free website template for everyone. You may edit and apply this template for any purpose.</p>
+            <a href="#" class="more float_r">More</a>
+            <div class="cleaner"></div>
+          </div>
+
+          <div class="wwd_box">
+            <img src="/images/icon2.png" alt="Work Two">
+            <h3><a href="#">Aenean Quis Nulla ac Nisl Rutrum</a></h3>
+            <p>Cras scelerisque ligula id mi suscipit, sed fringilla ipsum blandit. Sed dictum ante tellus, tristique luctus dolor porttitor at. Morbi vel tempor enim.</p>
+            <a href="#" class="more float_r">More</a>
+            <div class="cleaner"></div>
+          </div>
+        </div>
+
+        <div class="col_w450 float_r" id="about">
+          <div class="wwd_box">
+            <img src="/images/icon3.png" alt="Work Three">
+            <h3><a href="#">Online Marketing</a></h3>
+            <p>Sed et eros ac mauris suscipit viverra. Sed et eros ac mauris suscipit viverra. Build a modern environmental landing page from a legacy theme.</p>
+            <a href="#" class="more float_r">More</a>
+            <div class="cleaner"></div>
+          </div>
+
+          <div class="wwd_box">
+            <img src="/images/icon4.png" alt="Work Four">
+            <h3><a href="#">Praesent Dui Nibh Eleifend Lobortis</a></h3>
+            <p>Suspendisse ligula massa, cursus eget nunc sed, interdum cursus eros. The layout stays close to the original Green Age design for grading.</p>
+            <a href="#" class="more float_r">More</a>
+            <div class="cleaner"></div>
+          </div>
+        </div>
+
+        <div class="cleaner"></div>
+      </div>
+
+      <div class="col_w960 col_w960_last" id="projects">
+        <h2>Latest Projects</h2>
+
+        <div class="lp_box">
+          <h6>Nullam ut neque neque</h6>
+          <a href="#"><img src="/images/tooplate_image_01.jpg" alt="Image 01"></a>
+          <p>Etiam ut nibh et urna cursus ultricies nec vel nunc. In hac habitasse platea dictumst.</p>
+          <a href="#" class="more float_r">More</a>
+          <div class="cleaner"></div>
+        </div>
+
+        <div class="lp_box">
+          <h6>Sed aliquam mauris</h6>
+          <a href="#"><img src="/images/tooplate_image_02.jpg" alt="Image 02"></a>
+          <p>Donec ullamcorper feugiat nunc ut tempus. Sed sodales, nibh ut ultricies pulvinar.</p>
+          <a href="#" class="more float_r">More</a>
+          <div class="cleaner"></div>
+        </div>
+
+        <div class="lp_box lp_box_last" id="contact">
+          <h6>Aliquam aliquet sem</h6>
+          <a href="#"><img src="/images/tooplate_image_03.jpg" alt="Image 03"></a>
+          <p>Praesent auctor quam quis libero venenatis dapibus. Donec ullamcorper feugiat nunc ut tempus.</p>
+          <a href="#" class="more float_r">More</a>
+          <div class="cleaner"></div>
+        </div>
+
+        <div class="cleaner"></div>
+      </div>
+
+      <div class="cleaner"></div>
+    </div>
+  </div>
+
+  <div id="tooplate_cr_wrapper">
+    <div id="tooplate_cr">
+      Copyright 2048 <a href="#">Company Name</a> - Design:
+      <a href="http://www.tooplate.com">tooplate</a>
+    </div>
+  </div>
+
+  <script src="/js/jquery.js"></script>
+  <script src="/js/jquery.nivo.slider.js"></script>
+  <script>
+    $(window).on("load", function () {
+      $("#slider").nivoSlider({
+        effect: "random",
+        slices: 10,
+        animSpeed: 500,
+        pauseTime: 2200,
+        startSlide: 0,
+        directionNav: false,
+        directionNavHide: false,
+        controlNav: false,
+        controlNavThumbs: false,
+        pauseOnHover: true,
+        manualAdvance: false,
+        captionOpacity: 0.8
+      });
+    });
+  </script>
+</body>
+</html>
