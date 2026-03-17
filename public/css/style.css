@@ -233,6 +233,7 @@ a.more:hover {
   width: 320px;
   height: 240px;
   overflow: hidden;
+  margin-top: 15px; /* B refine: slider spacing */
 }
 
 #tooplate_main {
@@ -244,7 +245,7 @@ a.more:hover {
 
 .col_w960 {
   width: 960px;
-  margin-bottom: 40px;
+  margin-bottom: 50px; /* B refine: welcome/section spacing */
 }
 
 .col_w450 {
@@ -286,6 +287,7 @@ a.more:hover {
   float: left;
   width: 300px;
   margin-right: 30px;
+  margin-bottom: 20px; /* B refine: project card spacing */
 }
 
 .lp_box h6 {
