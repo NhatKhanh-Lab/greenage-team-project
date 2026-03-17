@@ -319,19 +319,21 @@ a.more:hover {
 #tooplate_cr_wrapper {
   clear: both;
   width: 100%;
-  background: #000;
+  margin-top: 18px;
+  background: #081105;
 }
 
 #tooplate_cr {
   width: 960px;
   margin: 0 auto;
-  padding: 15px 0;
+  padding: 18px 0;
   text-align: center;
-  color: #666;
+  color: #9db18d;
   background: #111;
+  letter-spacing: 0.3px;
 }
 
 #tooplate_cr a {
-  color: #5fa008;
-  font-weight: normal;
+  color: #c8f08b;
+  font-weight: bold;
 }
