@@ -142,7 +142,9 @@ a.more:hover {
   clear: both;
   width: 960px;
   height: 50px;
-  background: linear-gradient(180deg, #f5fbec 0%, #d9efba 100%);
+  border-radius: 12px;
+  background: linear-gradient(180deg, #f7fbe7 0%, #d3ebaa 100%);
+  box-shadow: 0 4px 14px rgba(48, 93, 9, 0.22);
 }
 
 #tooplate_menu ul {
@@ -172,6 +174,8 @@ a.more:hover {
   text-align: center;
   color: #5fa008;
   font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
   outline: none;
   border: none;
   background: url("../images/tooplate_menu.png") no-repeat bottom center;
@@ -191,7 +195,7 @@ a.more:hover {
 
 #search_box {
   float: right;
-  margin: 12px 0 0 0;
+  margin: 11px 10px 0 0;
   width: 170px;
   height: 27px;
   background: url("../images/tooplate_search.png") no-repeat;
@@ -212,7 +216,7 @@ a.more:hover {
   width: 130px;
   padding: 5px;
   font-size: 12px;
-  color: #ccc;
+  color: #7c7c7c;
   line-height: 0;
   background: none;
   border: none;
