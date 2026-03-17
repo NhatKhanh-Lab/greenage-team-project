@@ -107,14 +107,17 @@ a.more:hover {
 #tooplate_header {
   width: 960px;
   height: 100px;
+  padding-top: 18px;
+  box-sizing: border-box;
 }
 
 #site_title {
   float: left;
+  padding-left: 10px;
 }
 
 #site_title h1 {
-  margin: 30px 0 0 0;
+  margin: 12px 0 6px 0;
   padding: 0;
 }
 
@@ -125,6 +128,14 @@ a.more:hover {
   color: #fff;
   text-indent: -10000px;
   background: url("../images/tooplate_logo.png");
+}
+
+.site_tagline {
+  margin: 0;
+  color: #d8efc0;
+  font-size: 12px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
 }
 
 #tooplate_menu {
